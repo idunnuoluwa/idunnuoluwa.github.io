@@ -16,7 +16,7 @@ profiles:
     url: 'mailto:idunnuoluwaadeniji@gmail.com'
     label: E-mail Me
   - icon: brands/linkedin
-    url: www.linkedin.com/in/idunnuoluwa
+    url: https://www.linkedin.com/in/idunnuoluwa/
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
