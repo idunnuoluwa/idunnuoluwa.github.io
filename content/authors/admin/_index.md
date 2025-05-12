@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Idunnuoluwa Adekemi Adeniji
----
+
 # Name pronunciation (optional)
 name_pronunciation: e-du-nu-ho-lu-wah Ah-day-keh-me Ah-day-knee-gee
 
@@ -186,3 +186,4 @@ languages:
 ## About Me
 
 Idunnuoluwa Adeniji is a Ph.D. student in Computer Science at the University of Illinois Chicago, affiliated with the Electronic Visualization Laboratory (EVL) and a summer researcher at Argonne National Laboratory. Her research interests include scientific visualization, human-computer interaction, and high-performance scientific computing. She develops immersive tools for interacting with large-scale simulation data, combining virtual reality and parallel computing to support scientific discovery. She earned her B.Sc. in Computational Science and Engineering from Kean University, graduating Summa Cum Laude with Honors Distinction in Research. With a long-term goal of pursuing a career in academia and research, she is committed to advancing the way we explore and communicate complex scientific datasets.
+---
