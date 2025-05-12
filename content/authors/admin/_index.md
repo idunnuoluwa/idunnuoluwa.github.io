@@ -33,25 +33,25 @@ interests:
 education:
   - area: Ph.D in Computer Science 
     institution: University of Illinois Chicago
-    date_start: 2025-01
+    date_start: 2025-01-13
     date_end: Present
     summary: I’m currently pursuing a Ph.D. in Computer Science...
   - area: B.Sc. in Computational Science and Engineering
     institution: Kean University
-    date_start: 2021-09
-    date_end: 2024-12
+    date_start: 2021-09-01
+    date_end: 2024-12-20
     summary: |
       I graduated with a Bachelor of Science...
 work:
   - position: Teaching Assistant (CS 107)
     company_name: University of Illinois Chicago
-    date_start: 2025-01
+    date_start: 2025-01-13
     summary: |
       Responsibilities include:
       - Lead two lab sections...
   - position: Research Aide
     company_name: Argonne Leadership Computing Facility
-    date_start: 2023-06
+    date_start: 2023-06-05
     summary: |
       Responsibilities include:
       - Worked alongside a research mentor...
