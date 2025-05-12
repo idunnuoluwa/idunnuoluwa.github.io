@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Idunnuoluwa Adekemi Adeniji
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: e-du-nu-ho-lu-wah Ah-day-keh-me Ah-day-knee-gee
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Idunnuoluwa
+last_name: Adeniji
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:🧑‍💻️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,114 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Student, Graduate Assistant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Illinois Chicago
+    url: https://cs.uic.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:idunnuoluwaadeniji@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/linkedin
+    url: www.linkedin.com/in/idunnuoluwa
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://github.com/idunnuoluwa
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0008-8644-103X
 
 interests:
+  - Data Visualisation
+  - Human Computer Interaction
+  - High Performance Computing 
+  - Extended Reality 
+  - Gaming Engines
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+ - area: Ph.D in Computer Science 
+    institution: University of Illinois Chicago
+    date_start: 2025/01
+    date_end: Present
+    summary: I’m currently pursuing a Ph.D. in Computer Science, building on my background in Computational Science and Engineering. My research focuses on high-performance computing, scientific visualization, and immersive technologies, with an emphasis on making complex scientific data more interactive and accessible. I’m particularly interested in bridging the gap between traditional scientific workflows and modern visualization platforms like Unity, ParaView, and Unreal Engine. Through my doctoral work, I aim to push the boundaries of how we experience and interpret large-scale simulations in many fields. My approach combines deep technical expertise with creative problem-solving, driven by a commitment to innovation and interdisciplinary collaboration.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+
+  - area: B.Sc. in Computational Science and Engineering
+    institution: Kean University
+    date_start: 2021-09
+    date_end: 2024-12
     summary: |
-      GPA: 3.4/4.0
-      
+      I graduated with a Bachelor of Science and Technology in Computational Science and Engineering (2021–2024), awarded Summa Cum Laude honors and Honors Distinction in Research. I consistently achieved academic excellence, earning a place on the Dean’s List from Spring 2022 to Fall 2024. 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Data Structures 
+      - Software Engineering
+      - Math/Computational Methods I,II,III
+      - Physics I,II
+      - Discrete Structures 
+      - Probabilistic Methods 
+      - Linear Algebra 
+      - Differential Equations 
+      - Numerical Analysis
+      - Pedagogy Modeling and Simulations 
+      - Applied PDES
+      - High Performance Computing 
+      - Machine Learning Algorithms 
+      - Dynamical Systems 
+      - Scientific Data Exploration in Virtual Reality 
+
+
+  
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Teaching Assistant (CS 107)
+    company_name: Univeristy of Illinois Chicago
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Lead two lab sections for Introduction to Computing and Programming (CS 107)
+      - Assist students with debugging and problem-solving
+      - Hold office hours to provide additional support
+      - Grade project assignments and provide feedback
+      - Proctor examinations
+  - position: Research Aide
+    company_name: Argonne Leadership Computing Faciliity
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-06
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Worked alongside a research mentor on computational science and visualization projects
+
+      - Collaborated with the HACC cosmology team on large-scale data analysis and visualization
+
+      - Co-developed a particle data timelapse series in Virtual Reality (VR)
+
+      - Designed and implemented VR interactions for exploring Halo data
+
+      - Built a virtual environment to support efficient scientific data interactions
+
+      - Participated in VizTeam collaborations with scientists to translate research into immersive visual tools
+
+      - Utilized ParaView for high-performance data visualization and analysis
+
+      - Conducted literature reviews to support and contextualize research efforts
+
+      - Presented research at the Sandia National Labs XR Conference
+
+      - Presented research at the IEEE-LDAV Conference
+      
+      - Presented research at the CAAV Conference
+
+      - Delivered a division poster presentation highlighting VR-enabled cosmology data exploration
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,73 +136,53 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Java
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: code-bracket
+      - name: C#
         description: ''
-        percent: 40
-        icon: circle-stack
+        icon: code-bracket
+      - name: C++
+        description: ''
+        icon: code-bracket
+      - name: Unity
+        description: ''
+        icon: 👾
+      - name: C++
+        description: ''
+        icon: code-bracket
+      - name: ParaView
+        description: ''
+      - name: Maya
+        description: ''
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
-        percent: 80
-        icon: camera
+        icon: 📸
+      - name: Reading
+        description: ''
+        icon: 📖
+      - name: Music
+        description: ''
+        icon: 🎶
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Yoruba
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
+
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Idunnuoluwa Adeniji is a Ph.D. student in Computer Science at the University of Illinois Chicago, affiliated with the Electronic Visualization Laboratory (EVL) and a summer researcher at Argonne National Laboratory. Her research interests include scientific visualization, human-computer interaction, and high-performance scientific computing. She develops immersive tools for interacting with large-scale simulation data, combining virtual reality and parallel computing to support scientific discovery. She earned her B.Sc. in Computational Science and Engineering from Kean University, graduating Summa Cum Laude with Honors Distinction in Research. With a long-term goal of pursuing a career in academia and research, she is committed to advancing the way we explore and communicate complex scientific datasets.
