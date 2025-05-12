@@ -34,7 +34,7 @@ education:
   - area: Ph.D in Computer Science 
     institution: University of Illinois Chicago
     date_start: 2025-01-13
-    date_end: Present
+    date_end: ''
     summary: I’m currently pursuing a Ph.D. in Computer Science...
   - area: B.Sc. in Computational Science and Engineering
     institution: Kean University
