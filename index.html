@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Idunnuoluwa A. Adeniji — CS PhD Student</title>
+  <meta name="description" content="Personal academic website of Idunnuoluwa Adeniji." />
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root{ 
+      --bg:#0b1020; 
+      --text:#e9eef7; 
+      --muted:#9fb0c6; 
+      --card:#11172b; 
+      --accent:#66d9e8; 
+      --accent2:#a78bfa; 
+      --border:#1f2740; 
+      --shadow:0 10px 30px rgba(0,0,0,.35); 
+      --radius:18px; 
+      --maxw:1080px; 
+    }
+    @media (prefers-color-scheme: light){ :root{ 
+      --bg:#f7f9fc; 
+      --text:#0b1020;
+      --muted:#5a6577; 
+      --card:#ffffff; 
+      --border:#e6ebf3; 
+      --shadow:0 10px 25px rgba(10,25,60,.08);
+    } 
+  }
+    *{box-sizing:border-box} 
+    html,body{margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--text);
+      font:16px/1.6 system-ui,
+      -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif
+    }
+    a{color:var(--accent);
+      text-decoration:none} 
+      a:hover{text-decoration:underline}
+
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      margin-inline:auto;
+      padding:28px
+    }
+    header{
+      display:flex;
+      gap:24px;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      padding-block:18px 6px
+    }
+    .brand{
+      display:flex;
+      gap:14px;
+      align-items:center
+    }
+    .avatar{
+      width:64px;
+      height:64px;
+      border-radius:50%;
+      object-fit:cover;
+      border:2px solid var(--border);
+      box-shadow:var(--shadow);
+      display:block;
+    }
+
+    .name h1{
+      font-size:28px;
+      margin:0;
+      letter-spacing:.2px
+    }
+    .name .tagline{
+      margin:2px 0 0;
+      color:var(--muted)
+    }
+    nav{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap
+    }
+    nav a{
+      padding:10px 14px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:transparent
+    }
+    nav a:hover{
+      background:var(--card)
+    }
+    .hero{
+      margin:18px 0 28px;
+      padding:26px;
+      border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(102,217,232,.08),transparent);
+      border-radius:var(--radius)
+    }
+    .hero h2{
+      margin:0 0 8px;
+      font-size:26px
+    }
+    .chips{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:12px
+    }
+    .chip{
+      padding:8px 12px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      color:var(--muted);
+      background:rgba(255,255,255,.02)
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:18px
+    }
+    .col-7{
+      grid-column:span 7}.col-5{grid-column:span 5}
+      @media (max-width:960px){.col-7,.col-5,.col-6{grid-column:1/-1}
+    }
+    section{
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      background:var(--card);
+      padding:22px
+    }
+    section h3{margin:0 0 10px}
+    .card{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:16px;
+      margin:10px 0;
+      background:rgba(255,255,255,.02)
+    }
+    .card h4{
+      margin:0 0 6px
+    }
+    .meta{
+      color:var(--muted);
+      font-size:14px
+    }
+    .list{
+      list-style:none;
+      margin:0;
+      padding:0
+    }.list li{
+      padding:8px 0;
+      border-bottom:1px dashed var(--border)
+    }.list li:last-child{
+      border-bottom:none
+    }
+    .cta{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:14px
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:12px;
+      border:1px solid var(--border);
+      background:transparent
+    }
+    .btn.primary{
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      color:#0b1020;border:none
+    }
+    .btn:hover{
+      filter:brightness(1.05)
+    }
+    footer{
+      padding:40px 0 10px;
+      color:var(--muted);
+      text-align:center
+    }
+    .socials{
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      margin:12px 0 0;
+      flex-wrap:wrap
+    }
+    .news-item time{
+      font-variant-numeric:tabular-nums;
+      color:var(--muted);
+      margin-right:10px
+    }
+    .pub .title{
+      font-weight:600
+    }
+    .pub .authors{
+      color:var(--muted)
+    }
+
+    .pub .links a{
+      margin-right:10px
+    }
+    .two-col{
+      display:flex;gap:18px;
+      flex-wrap:wrap
+    }
+    .two-col section{
+      flex:1;
+      min-width:260px
+    }
+    .project-card img{
+      width:100%;
+      border-radius:12px;
+      margin-bottom:10px;
+      border:1px solid var(--border);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+      <img 
+        src="assets/images/headshot.jpg" 
+        alt="Portrait of Idunnuoluwa Adeniji" 
+        class="avatar"
+      />
+
+        <div class="name">
+          <h1>Idunnuoluwa Adeniji</h1>
+          <div class="tagline">PhD Student, Computer Science @ UIC</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h2>Exploring new ways to make complex scientific data more interpretable through interactive visualization.</h2>
+      <p class="meta">University of Illinois Chicago • Chicago, IL</p>
+      <div class="chips">
+        <span class="chip">Scientific Visualization</span>
+        <span class="chip">VR/AR/MR</span>
+        <span class="chip">Human–Computer Interaction</span>
+        <span class="chip">Scientific Computing</span>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="Idunnuoluwa_Adeniji_Resume_2025.pdf" target="_blank">Download CV</a>
+        <a class="btn" href="mailto:idunnuoluwaadeniji@gmail.com">Email</a>
+        <a class="btn" href="https://scholar.google.com/citations?hl=en&user=Ce83zngAAAAJ" target="_blank">Google Scholar</a>
+        <a class="btn" href="https://github.com/idunnuoluwa" target="_blank">GitHub</a>
+        <a class="btn" href="http://www.linkedin.com/in/idunnuoluwa" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <section class="col-7" id="about">
+        <h3>About</h3>
+        <p>I'm a dedicated graduate student researcher with a B.Sc. in Computational Science and Engineering (Summa Cum Laude) from Kean University and currently pursuing a Ph.D. in Computer Science at the University of Illinois Chicago. My research spans scientific visualization, human–computer interaction, VR/AR/MR, and scientific computing, with the goal of developing innovative ways to interact with complex datasets. I've collaborated with the ALCF Visualization Team at Argonne National Laboratory and contributed to projects involving VR environments, WebXR, and 3D scientific data exploration. I’ve presented at venues including Sandia XR Conference, KEAN Research Days, CAAV, and eScience.</p>
+        <h4 style="margin-top:14px">News</h4>
+        <ul class="list">
+          <li><time>Spring 2026:</time> Research Assistant at the Electronic Visualization Laboratory.</li>
+          <li><time>Fall 2025:</time> Poster Presentation at eScience Conference 2025.</li>
+          <li><time>Fall 2025:</time> Research Assistant at the Electronic Visualization Laboratory.</li>
+          <li><time>Summer 2025:</time> Research Aide at the Argonne Leadership Computing Facility.</li>
+          <li><time>Spring 2025:</time> Teaching Assistant for CS 107 at UIC.</li>
+          <li><time>Spring 2025:</time> Began PhD in Computer Science at UIC.</li>
+          <li><time>Summer 2024:</time> Presented immersive visualization work at Sandia XR Conference and KEAN Research Days.</li>
+          <li><time>Summer 2023:</time> Co-developed VR particle data timelapse series at Argonne National Lab.</li>
+        </ul>
+      </section>
+
+      <section class="col-5" id="contact">
+        <h3>Contact</h3>
+        <div>
+          <div><b>Email:</b> <a href="mailto:idunnuoluwaadeniji@gmail.com">idunnuoluwaadeniji@gmail.com</a></div>
+          <div><b>Office:</b> EVL UIC</div>
+          <div><b>Location:</b> Chicago, IL</div>
+          <div><b>Open to:</b> Research collaborations, Mentoring, Industry internships</div>
+        </div>
+      </section>
+    </div>
+
+    <section id="publications" style="margin-top:18px">
+      <h3>Selected Publications</h3>
+      <div class="card pub">
+        <div class="title">Using Unity for Scientific Visualization as a Course-based Undergraduate Research Experience</div>
+        <div class="authors">Idunnuoluwa Adeniji et al.</div>
+        <div class="meta">Journal of Computational Science Education</div>
+        <div class="links"><a href="https://doi.org/10.22369/issn.2153-4136/15/1/7" target="_blank">Paper</a></div>
+      </div>
+      <div class="card pub">
+        <div class="title">Exploring Large-Scale Scientific Data in Virtual Reality</div>
+        <div class="authors">Idunnuoluwa Adeniji et al.</div>
+        <div class="meta">LDAV 2024</div>
+        <div class="links"><a href="https://www.computer.org/csdl/proceedings-article/ldav/2024/169200a075/22gEhU9bfyg" target="_blank">Paper</a></div>
+      </div>
+
+       <div class="card pub">
+        <div class="title">Interactive Exploration of HACC Cosmology Data using WebXR</div>
+        <div class="authors">Idunnuoluwa Adeniji et al.</div>
+        <div class="meta">eScience 2025</div>
+        <div class="links"><a href="https://ieeexplore.ieee.org/document/11181541" target="_blank">Paper</a></div>
+      </div>
+    </section>
+
+    <section id="projects" style="margin-top:18px">
+      <h3>Projects</h3>
+
+      <div class="card project-card">
+        <img 
+          src="assets/images/projects/sceneall.png" 
+          alt="VR visualization of HACC cosmology data"
+        >
+        <h4>Exploring Large-Scale Scientific Data in Virtual Reality</h4>
+        <div class="meta">
+          Unity-based VR tool for HACC cosmology data exploration.
+        </div>
+        
+      </div>
+
+      <div class="card project-card">
+        <img 
+          src="assets/images/projects/vis-app.png" 
+          alt="WebXR interface for HACC data exploration"
+        >
+        <h4>Interactive Exploration of HACC Data Using WebXR</h4>
+        <div class="meta">
+          Web-based visualization tool integrated into the ALCF HACC Compute Portal.
+        </div>
+        <div class="links">
+          <a href="https://cosmoexplorer.alcf.anl.gov/vis-app/" target="_blank">
+            Web application
+          </a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <img 
+          src="assets/images/projects/Exhibition all.png" 
+          alt="Guardian of the Sea visualization project"
+        >
+        <h4>Guardian of the Sea</h4>
+        <div class="meta">
+          Visualization project inspired by UN SDG Life Below Water, educating about pollution.
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <img 
+          src="assets/images/projects/hacc-vr.png" 
+          alt="VR particle data timelapse visualization"
+        >
+        <h4>Particle Data Timelapse in VR</h4>
+        <div class="meta">
+          Developed immersive timelapse visualizations of particle data using ParaView and Unity.
+        </div>
+      </div>
+  </section>
+
+  <section id="resume" style="margin-top:18px">
+    <h3>Resume</h3>
+    <div class="card">
+      <p class="meta">Updated 2025 • PDF</p>
+      <div class="cta" style="margin-bottom:14px">
+        <a 
+          class="btn" 
+          href="Idunnuoluwa_Adeniji_Resume_2025.pdf#view=FitH" 
+          target="_blank"
+        >
+          View in New Tab
+        </a>
+      </div>
+      <iframe 
+        src="Idunnuoluwa_Adeniji_Resume_2025.pdf" 
+        width="100%" 
+        height="600px"
+        style="border:1px solid var(--border); border-radius:12px;"
+        title="Resume preview"
+      ></iframe>
+    </div>
+  </section>
+
+
+    <div class="two-col" style="margin-top:18px">
+      <section id="teaching">
+        <h3>Teaching</h3>
+        <ul class="list">
+          <li><b>Fall 2025</b> — Teaching Assistant, CS 107: Intro to Computing and Programming (UIC)</li>
+          <li><b>Spring 2023</b> — Student Tutor, Calculus I & III and Python programming</li>
+        </ul>
+      </section>
+      <section id="service">
+        <h3>Service & Activities</h3>
+        <ul class="list">
+          <li><b>Presenter</b> — Sandia XR Conference, KEAN Research Days, CAAV, eScience</li>
+          <li><b>Member</b> — ACM Kean Chapter, Women in Cybersecurity, National Society of Collegiate Scholars</li>
+          <li><b>Scholarships</b> — Kean STEM Scholarship, Bodzioch Scholarship for Advancement of Science</li>
+          <li><b>Programs</b> — Sustainable Research Pathways participant</li>
+          <li><b>Volunteer</b> — Kean Cougar Volunteer, Argonne coding camp, Tutoring Chicago</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <div>© <span id="year"></span> Idunnuoluwa Adeniji</div>
+      <div class="socials">
+        <a href="http://www.linkedin.com/in/idunnuoluwa" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
